@@ -6,9 +6,9 @@ function App() {
   return (
     <div>
       {/* UNCOMMENT THIS FOR ROUTING */}
-      {/* <Routing /> */}
+      <Routing />
       {/* UNCOMMENT THIS FOR FETCH REQUEST */}
-      <Fetch />
+      {/* <Fetch /> */}
     </div>
   );
 }
