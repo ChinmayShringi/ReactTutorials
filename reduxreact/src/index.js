@@ -33,14 +33,14 @@ const counter = (state = 0, action) => {
 // Store GLOBALIZED STATE
 let store = createStore(counter);
 
-store.subscribe(() => console.log(store.getState()));
+store.subscribe(() => console.log(`SUBSCRIBE GETSTATE:`,store.getState()));
 
 // Dispatch CALL FUNCTION
 store.dispatch(increment());
 store.dispatch(increment());
-store.dispatch(increment());
+// store.dispatch(increment());
 store.dispatch(decrement());
-store.dispatch(increment());
+// store.dispatch(increment());
 
 ReactDOM.render(
   <React.StrictMode>
